@@ -1,0 +1,144 @@
+/* Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'the font bold', sans-serif;/* Set default font */
+    background: url('background.jpg') no-repeat center center fixed;/* Set background image */
+    background-size: cover; /* Set text color */
+    color: #ffffff;
+}
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);/* Shadow effect */
+    backdrop-filter: blur(5px);/* Apply blur effect */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #8275c6;/* Purple color for heading */
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 24px;
+    color: #373059;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+/* Album cover styles */
+.album-cover img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin-bottom: 20px;
+}
+
+
+
+/* Row and column layout */
+.row{
+    display: flex;
+    height: 88%;
+    align-items: first baseline;
+    }
+.col{
+    flex-basis: 90%;
+    }
+    
+    
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+/* Card section styles */
+.card {
+    background: rgba(0, 0, 0, 0.7);/* Semi-transparent background */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);/* Shadow effect */
+    width: 300px;
+    transition: transform 0.3s ease;/* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale card on hover */
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;/* Maintain aspect ratio */
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    color: #1e90ff;
+}
+
+.card-content p {
+    margin: 0 0 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.7);/* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+}
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+p{ I
+    color: #fff;
+    font-size: 19px;
+    line-height: 20px;
+}
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    }
+
+.itunes-button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #57248a;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+        transition: background-color 0.3s ease, transform 0.3s ease;/* Smooth transition */
+    }
+    
+    .itunes-button:hover {
+        background-color: #352178;/* Darker purple color on hover */
+        transform: scale(1.05);/* Scale button on hover */
+    }
+    
